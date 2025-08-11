@@ -208,23 +208,46 @@ sections:
     colors: colors-f
     items:
       - type: FeaturedItem
-        subtitle: 'Experience:'
+        subtitle: 'Professional Experience:'
         text: |-
-          **Current**
+          **Full Stack Python Developer**
+          **PayPal | San Jose CA**
+          *Mar 2025 - Present*
 
-          * **Data Analyst — AtlasProGroup**  
-            Build Power BI dashboards, write SQL for reporting & QA, and
-            close the loop with stakeholders to iterate fast.
+          • Designed and deployed Flask-based microservices leveraging SQLAlchemy and OOP patterns, sustaining 99.9% uptime while supporting high-volume data transactions.
+          • Automated CI/CD pipelines in Azure DevOps with Ansible, integrating PyTest and functional testing to reduce deployment issues by 40%.
+          • Tuned SQL and NoSQL queries monitored through Azure App Insights, leading to a 50% cut in API and dashboard latency for end users.
+          • Delivered real-time KPI dashboards in Tableau sourced from Spark-driven ETL jobs, transforming multi-hour reporting processes into on-demand analytics.
+          • Built Python-powered data validation and cleansing workflows, improving ETL dataset accuracy by 35% for downstream analytics.
+          • Optimized Apache Spark job configurations for parallelism, boosting batch data processing speed by over 40% in ML feature generation tasks.
+          • Presented query optimization metrics and data throughput insights to cross-functional teams, prompting infrastructure adjustments that increased efficiency by 25%.
+          • Produced clear documentation outlining ML data workflows, enabling faster onboarding and ensuring consistency in analytics processes.
 
-          **Projects (Selected)**
+          **Full Stack Python Developer**
+          **Vanguard | Remote**
+          *Apr 2024 - Feb 2025*
 
-          * **Credit Card Fraud Detection (Isolation Forest):** Prototype to flag suspicious transactions and explain spikes.
-          * **Music Data Analysis Dashboard:** Cleaned streaming/event data into clear artist & trend views (Power BI).
-          * **Trend Forecasting Dashboard:** Lightweight time-series forecasts for KPIs with drift monitoring.
+          • Delivered FastAPI and GraphQL fraud detection services that processed thousands of concurrent user requests, cutting confirmed fraud incidents by 30% through real-time ML scoring.
+          • Reduced model training preparation time by 45% by migrating fraud datasets to Snowflake data lakes with AWS Glue ETL workflows, streamlining the ML pipeline.
+          • Achieved sub-300ms prediction latency for anomaly detection by deploying AWS Lambda applications backed by DynamoDB and containerized inference endpoints.
+          • Boosted analyst productivity by 25% by developing React.js dashboards that visualized streaming ML outputs from Python APIs for instant risk assessment.
+          • Maintained 24/7 service availability by orchestrating Kubernetes-based deployments via Jenkins and GitHub Actions, eliminating production downtime during releases.
+          • Increased stakeholder trust in ML predictions by implementing SHAP and LIME explainability, enabling clear insight into model decision-making.
+          • Elevated deployment quality by coaching junior engineers on Terraform automation, AWS Lambda optimization, and secure API design, leading to a 20% improvement in release success.
+          • Ensured reproducible ML model performance by establishing MLflow-based version control and experiment tracking in collaboration with data science teams.
 
-          **Past**
+          **Python Developer**
+          **Bayer | India**
+          *Oct 2020 - Dec 2022*
 
-          * Freelance/Academic data projects across analytics & ML.
+          • Delivered optimized React.js and Node.js front-end modules integrated with Django and Flask backends over GraphQL, enabling customers to complete transactions 20% faster through reduced API response times.
+          • Architected a Django-powered analytics framework with ML-driven insights, leveraging AWS ECS and Lambda to handle over 15TB of daily transaction data, resulting in a 35% increase in throughput.
+          • Orchestrated real-time fraud detection by deploying Dockerized Flask microservices with SQLAlchemy to Kubernetes, achieving sub-second predictions via SageMaker and ensuring seamless scalability.
+          • Transformed multi-source transactional data pipelines using PySpark to load into Snowflake data lakes, cutting batch latency by 40% and making ML features available ahead of schedule for model training.
+          • Enhanced deployment reliability by implementing Jenkins and Ansible pipelines with PyTest validation, which reduced production release issues by 25% and improved post-deployment stability.
+          • Improved schema consistency and indexing for MySQL and Redis ETL jobs, raising prediction accuracy of downstream ML models by 18% and eliminating recurring data integration errors.
+          • Led a cross-functional team of five to operationalize ML models with SageMaker and MLflow tracking, reducing deployment cycles by 40% and maintaining reproducibility across all releases.
+          • Designed monitoring dashboards with Prometheus and Grafana to track API health and latency, sustaining 99.99% uptime for core payment services and enabling proactive incident handling.
         styles:
           self:
             textAlign: left

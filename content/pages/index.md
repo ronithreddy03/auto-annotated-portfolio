@@ -14,12 +14,26 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+      Hi — I’m Ronith Reddy Prodduturi
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      **Full Stack Python Developer | Data Analyst | Machine Learning Enthusiast**  
+      Based in **Dallas, TX** (open to TX/CA & remote).  
+      I build data-driven products, clean data pipelines, and visuals that actually help people make decisions.  
+      Recently, I’ve worked on fraud-detection prototypes, time-series forecasting, and music analytics dashboards —  
+      turning messy data into clear, actionable insights.
+    actions:
+      - type: Link
+        label: Resume (PDF)
+        url: '/assets/Ronith%20Reddy%20Full%20Stack%20Python%20Developer%20.pdf'
+        style: primary
+      - type: Link
+        label: LinkedIn
+        url: 'https://www.linkedin.com/in/ronithreddy03/'
+        style: secondary
+      - type: Link
+        label: GitHub
+        url: 'https://github.com/ronithreddy03'
+        style: secondary
     styles:
       self:
         height: auto
@@ -37,7 +51,6 @@ sections:
         flexDirection: row-reverse
         textAlign: left
     type: HeroSection
-    actions: []
   - colors: colors-f
     type: FeaturedProjectsSection
     elementId: ''
@@ -95,7 +108,7 @@ sections:
   - type: ContactSection
     colors: colors-f
     backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: "Got an interesting project? Let’s talk...💬"
     form:
       type: FormBlock
       elementId: sign-up-form
@@ -133,7 +146,7 @@ sections:
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: "Submit 🚀"
       styles:
         self:
           textAlign: center

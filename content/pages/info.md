@@ -22,7 +22,7 @@ sections:
       actually use. Based in **Dallas, TX** (open to TX/CA & remote).
       Lately I've shipped fraud-detection prototypes, time-series forecasts,
       and music analytics dashboards that turn messy data into clear decisions.
-      Curious, fast, and pragmatic—if you like shipping, keep scrolling.
+      Curious, fast, and pragmatic—if you like shipping, keep scrolling! 🚀
 
     media:
       type: ImageBlock

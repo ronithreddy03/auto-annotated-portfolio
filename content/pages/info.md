@@ -14,66 +14,61 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      # Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+      # Hey — I'm Ronith Reddy Prodduturi
+
+      **Developer • Digital Artist • Consultant**
+
+      I build data-driven products, clean data pipelines, and visuals people
+      actually use. Based in **Dallas, TX** (open to TX/CA & remote).
+      Lately I've shipped fraud-detection prototypes, time-series forecasts,
+      and music analytics dashboards that turn messy data into clear decisions.
+      Curious, fast, and pragmatic—if you like shipping, keep scrolling.
 
     media:
       type: ImageBlock
       url: /images/about.jpg
-      altText: Hero image
+      altText: Portrait of Ronith
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-16
-          - pb-12
-          - pl-4
-          - pr-4
+        margin: [mt-0, mb-0, ml-0, mr-0]
+        padding: [pt-16, pb-12, pl-4, pr-4]
         textAlign: left
     type: HeroSection
+
   - type: DividerSection
     styles:
       self:
         width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
+        padding: [pt-8, pb-8, pl-4, pr-4]
         borderWidth: 1
         borderStyle: solid
+
   - type: MediaGallerySection
     colors: colors-f
-    subtitle: 'I worked with these folks:'
+    subtitle: 'I work with these tools:'
     images:
       - type: ImageBlock
         url: /images/logo1.svg
-        altText: Logo one
-        caption: Logo one
+        altText: Python
+        caption: Python
       - type: ImageBlock
         url: /images/logo2.svg
-        altText: Logo two
-        caption: Logo two
+        altText: SQL
+        caption: SQL
       - type: ImageBlock
         url: /images/logo3.svg
-        altText: Logo three
-        caption: Logo three
+        altText: Power BI
+        caption: Power BI
       - type: ImageBlock
         url: /images/logo4.svg
-        altText: Logo four
-        caption: Logo four
+        altText: AWS
+        caption: AWS
       - type: ImageBlock
         url: /images/logo5.svg
-        altText: Logo five
-        caption: Logo five
+        altText: Azure
+        caption: Azure
     spacing: 3
     columns: 5
     aspectRatio: auto
@@ -83,75 +78,57 @@ sections:
       self:
         width: wide
         height: auto
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
+        padding: [pt-8, pb-8, pl-4, pr-4]
         textAlign: left
+
   - type: DividerSection
     styles:
       self:
         width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
+        padding: [pt-8, pb-8, pl-4, pr-4]
         borderWidth: 1
         borderStyle: solid
+
   - type: FeaturedItemsSection
-    subtitle: 'You can find me here:'
+    subtitle: 'Find me here:'
     colors: colors-f
     items:
       - type: FeaturedItem
         actions:
           - type: Link
-            label: GitHub
-            url: 'https://github.com/'
-        styles:
-          self:
-            textAlign: left
+            label: Website
+            url: 'https://ronithreddy.netlify.app/'
+        styles: { self: { textAlign: left } }
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Twitter
-            url: 'https://twitter.com/'
-        styles:
-          self:
-            textAlign: left
+            label: GitHub
+            url: 'https://github.com/REPLACE_WITH_YOUR_HANDLE' # TODO
+        styles: { self: { textAlign: left } }
       - type: FeaturedItem
         actions:
           - type: Link
             label: LinkedIn
-            url: 'https://www.linkedin.com/'
-        styles:
-          self:
-            textAlign: left
+            url: 'https://www.linkedin.com/in/REPLACE_SLUG' # TODO
+        styles: { self: { textAlign: left } }
       - type: FeaturedItem
         actions:
           - type: Link
-            label: CodePen
-            url: 'https://codepen.io/'
-        styles:
-          self:
-            textAlign: left
+            label: Kaggle
+            url: 'https://kaggle.com/REPLACE_HANDLE' # TODO
+        styles: { self: { textAlign: left } }
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Discord
-            url: 'https://discord.com/'
-        styles:
-          self:
-            textAlign: left
+            label: Email
+            url: 'mailto:REPLACE@EMAIL.COM' # TODO
+        styles: { self: { textAlign: left } }
       - type: FeaturedItem
         actions:
           - type: Link
-            label: Instagram
-            url: 'https://www.instagram.com/'
-        styles:
-          self:
-            textAlign: left
+            label: Resume (PDF)
+            url: '/assets/Resume.pdf'
+        styles: { self: { textAlign: left } }
     columns: 3
     spacingX: 120
     spacingY: 16
@@ -159,70 +136,74 @@ sections:
       self:
         height: auto
         width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
+        padding: [pt-8, pb-8, pl-4, pr-4]
+
   - type: DividerSection
     styles:
       self:
         width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
+        padding: [pt-12, pb-12, pl-4, pr-4]
         borderWidth: 1
         borderStyle: solid
+
   - type: LabelsSection
     colors: colors-f
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: Python
       - type: Label
-        label: React
+        label: SQL
       - type: Label
-        label: Microsoft Office
+        label: Power BI
       - type: Label
-        label: Next.js
+        label: Tableau
       - type: Label
-        label: Netlify
+        label: Pandas / NumPy
       - type: Label
-        label: Pancakes
+        label: scikit-learn
       - type: Label
-        label: C++
+        label: Time Series (ARIMA/Prophet)
       - type: Label
-        label: Swift
+        label: Anomaly Detection (Isolation Forest)
+      - type: Label
+        label: PySpark
+      - type: Label
+        label: AWS (S3, Lambda, Glue)
+      - type: Label
+        label: Azure (ADF)
+      - type: Label
+        label: Docker / Git
+      - type: Label
+        label: CI/CD
+      - type: Label
+        label: Data Modeling
+      - type: Label
+        label: Storytelling with Data
+
   - type: DividerSection
     styles:
       self:
         width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
+        padding: [pt-12, pb-12, pl-4, pr-4]
         borderWidth: 1
         borderStyle: solid
+
   - type: TextSection
     variant: variant-a
     subtitle: 'Contact:'
     colors: colors-f
     text: |
-      [thisismyemail.@myemail.me](mailto:thisismyemail.@myemail.me)
+      [REPLACE@EMAIL.COM](mailto:REPLACE@EMAIL.COM)  <!-- TODO: update -->
+
   - type: DividerSection
     styles:
       self:
         width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
+        padding: [pt-8, pb-8, pl-4, pr-4]
         borderWidth: 1
         borderStyle: solid
+
   - type: FeaturedItemsSection
     colors: colors-f
     items:
@@ -231,40 +212,33 @@ sections:
         text: |-
           **Current**
 
-          * freelance @freelance.me
+          * **Data Analyst — AtlasProGroup**  
+            Build Power BI dashboards, write SQL for reporting & QA, and
+            close the loop with stakeholders to iterate fast.
 
-          **2018-2021**
+          **Projects (Selected)**
 
-          * fullstack at this startup
+          * **Credit Card Fraud Detection (Isolation Forest):** Prototype to flag suspicious transactions and explain spikes.
+          * **Music Data Analysis Dashboard:** Cleaned streaming/event data into clear artist & trend views (Power BI).
+          * **Trend Forecasting Dashboard:** Lightweight time-series forecasts for KPIs with drift monitoring.
 
-          **2015**
+          **Past**
 
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
+          * Freelance/Academic data projects across analytics & ML.
         styles:
           self:
             textAlign: left
+
       - type: FeaturedItem
         subtitle: 'Education:'
         text: |-
-          **2015-2018**
+          **2024**
 
-          * ba computer sciense at a semi fancy school
+          * **M.S., Technology Management — Lindsey Wilson University**
 
-          **2014**
+          **2022**
 
-          * react certificate somewhere
-
-          **2011**
-
-          * my highschool
+          * **B.S., Computer Science — GITAM University**
         styles:
           self:
             textAlign: left
@@ -275,26 +249,20 @@ sections:
       self:
         height: auto
         width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
+        padding: [pt-8, pb-8, pl-4, pr-4]
         textAlign: left
+
   - type: DividerSection
     styles:
       self:
         width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
+        padding: [pt-12, pb-12, pl-4, pr-4]
         borderWidth: 1
         borderStyle: solid
+
   - type: ContactSection
     backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
+    title: "Let's talk... 💬"
     colors: colors-f
     form:
       type: FormBlock
@@ -324,16 +292,16 @@ sections:
         - name: message
           label: Message
           hideLabel: true
-          placeholder: Tell me about your project
+          placeholder: Tell me about your project or role
           isRequired: true
           width: full
           type: TextareaFormControl
         - name: updatesConsent
-          label: Sign me up to recieve my words
+          label: Sign me up to receive updates
           isRequired: false
           width: full
           type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+      submitLabel: "Submit 🚀"
       styles:
         self:
           textAlign: center
@@ -341,16 +309,8 @@ sections:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
+        margin: [mt-0, mb-0, ml-4, mr-4]
+        padding: [pt-12, pb-12, pr-4, pl-4]
         flexDirection: row
         textAlign: left
 ---

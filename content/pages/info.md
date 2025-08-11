@@ -283,6 +283,56 @@ sections:
         borderWidth: 1
         borderStyle: solid
 
+  - type: FeaturedItemsSection
+    colors: colors-f
+    items:
+      - type: FeaturedItem
+        subtitle: 'Fraud Detection & Prevention System'
+        text: |-
+          • Developed PySpark and Snowflake workflows with scikit-learn models to scan 10TB+ transaction data daily, lowering fraudulent activity by 30% through predictive scoring.
+          • Automated AWS SageMaker deployments with CI/CD pipelines, shortening release cycles from two weeks to three days while ensuring model reproducibility.
+          • Connected FastAPI microservices to live Power BI dashboards, giving fraud teams real-time insight into transaction anomalies and risk scores.
+        styles:
+          self:
+            textAlign: left
+
+      - type: FeaturedItem
+        subtitle: 'IoT Health Monitoring Platform'
+        text: |-
+          • Implemented AWS Kinesis and Lambda pipelines for ingesting 1M+ sensor events daily, ensuring low-latency data flow to hospital analytics systems.
+          • Applied Python-based anomaly detection algorithms to identify early signs of health deterioration, achieving 92% classification accuracy.
+          • Built React.js interfaces displaying live patient vitals, enabling medical teams to act on alerts instantly.
+        styles:
+          self:
+            textAlign: left
+
+      - type: FeaturedItem
+        subtitle: 'Real-Time Language Translator AI App'
+        text: |-
+          • Created a multilingual translation engine with Whisper API, Flask, and React Native, supporting 12 languages under 300ms latency for spoken text.
+          • Set up automated PyTest pipelines to maintain translation accuracy within 0.2% deviation during updates.
+          • Deployed AWS Lambda and API Gateway backend for scalable, cost-efficient real-time processing.
+        styles:
+          self:
+            textAlign: left
+    columns: 1
+    spacingX: 60
+    spacingY: 60
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding: [pt-8, pb-8, pl-4, pr-4]
+        textAlign: left
+
+  - type: DividerSection
+    styles:
+      self:
+        width: wide
+        padding: [pt-12, pb-12, pl-4, pr-4]
+        borderWidth: 1
+        borderStyle: solid
+
   - type: ContactSection
     backgroundSize: full
     title: "Let's talk... 💬"

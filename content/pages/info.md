@@ -1,7 +1,7 @@
 ---
 type: PageLayout
 title: About
-colors: colors-a
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
   url: /images/bg4.jpg
@@ -11,7 +11,7 @@ backgroundImage:
   opacity: 75
 sections:
   - elementId: ''
-    colors: colors-f
+    colors: colors-b
     backgroundSize: full
     text: >+
       # Hey — I'm Ronith Reddy Prodduturi
@@ -46,7 +46,7 @@ sections:
         borderStyle: solid
 
   - type: MediaGallerySection
-    colors: colors-f
+    colors: colors-b
     subtitle: 'I work with these tools:'
     images:
       - type: ImageBlock
@@ -91,7 +91,7 @@ sections:
 
   - type: FeaturedItemsSection
     subtitle: 'Find me here:'
-    colors: colors-f
+    colors: colors-b
     items:
       - type: FeaturedItem
         actions:
@@ -147,7 +147,7 @@ sections:
         borderStyle: solid
 
   - type: LabelsSection
-    colors: colors-f
+    colors: colors-b
     subtitle: 'Skills:'
     items:
       - type: Label
@@ -192,7 +192,7 @@ sections:
   - type: TextSection
     variant: variant-a
     subtitle: 'Contact:'
-    colors: colors-f
+    colors: colors-b
     text: |
       [REPLACE@EMAIL.COM](mailto:REPLACE@EMAIL.COM)  <!-- TODO: update -->
 
@@ -205,7 +205,7 @@ sections:
         borderStyle: solid
 
   - type: FeaturedItemsSection
-    colors: colors-f
+    colors: colors-b
     items:
       - type: FeaturedItem
         subtitle: 'Professional Experience:'
@@ -284,7 +284,7 @@ sections:
         borderStyle: solid
 
   - type: FeaturedItemsSection
-    colors: colors-f
+    colors: colors-b
     items:
       - type: FeaturedItem
         subtitle: 'Fraud Detection & Prevention System'
@@ -336,7 +336,7 @@ sections:
   - type: ContactSection
     backgroundSize: full
     title: "Let's talk... 💬"
-    colors: colors-f
+    colors: colors-b
     form:
       type: FormBlock
       elementId: sign-up-form

@@ -1,7 +1,8 @@
+```markdown
 ---
 type: PageLayout
 title: Home
-colors: colors-a
+colors: colors-b
 backgroundImage:
   type: BackgroundImage
   url: /images/bg1.jpg
@@ -16,11 +17,12 @@ sections:
     title: >-
       Hi — I’m Ronith Reddy Prodduturi
     subtitle: >-
-      **Full Stack Python Developer | Data Analyst | Machine Learning Enthusiast**  
-      Based in **Dallas, TX** (open to TX/CA & remote).  
-      I build data-driven products, clean data pipelines, and visuals that actually help people make decisions.  
-      Recently, I’ve worked on fraud-detection prototypes, time-series forecasting, and music analytics dashboards —  
-      turning messy data into clear, actionable insights.
+  **Full Stack Python Developer | Data Analyst | Machine Learning Enthusiast | Cloud Practitioner**  
+  Based in **Dallas, TX** (open to TX/CA & remote).  
+  I turn messy data into **“aha!” moments** — whether it’s catching credit card fraud before it happens, forecasting trends,  
+  or building dashboards so clear your boss will think they’re magic.  
+  Skilled in **Python, SQL, Power BI, AWS, and Azure**, I blend data science with a dash of creativity to make numbers tell stories people actually want to read.
+
     actions:
       - type: Link
         label: Resume (PDF)
@@ -67,6 +69,9 @@ sections:
       - content/pages/projects/project-two.md
       - content/pages/projects/project-three.md
       - content/pages/projects/project-one.md
+      - content/pages/projects/fraud-detection-prevention-system.md
+      - content/pages/projects/iot-health-monitoring-platform.md
+      - content/pages/projects/real-time-language-translator-ai-app.md
     styles:
       self:
         height: auto
@@ -167,3 +172,4 @@ sections:
         flexDirection: row
         textAlign: left
 ---
+```
